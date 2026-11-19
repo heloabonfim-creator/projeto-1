@@ -1,0 +1,171 @@
+/* Configurações gerais e acessibilidade */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; /* Fonte maior para facilitar a leitura */
+    line-height: 1.6;
+    color: #1a1a1a;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.cabecalho .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.botao-acessibilidade {
+    background-color: #ffcc00;
+    color: #000000;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botao-acessibilidade:hover {
+    background-color: #e6b800;
+}
+
+/* Banner Principal */
+.banner {
+    background-color: #e6f0fa;
+    padding: 50px 0;
+    text-align: center;
+    border-bottom: 3px solid #003366;
+}
+
+.banner h2 {
+    font-size: 32px;
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.botao-destaque {
+    display: inline-block;
+    background-color: #b30000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 18px 32px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.botao-destaque:hover {
+    background-color: #800000;
+}
+
+/* Seções de Conteúdo */
+.secao {
+    padding: 50px 0;
+}
+
+.fundo-alternativo {
+    background-color: #f4f6f9;
+}
+
+.secao h2 {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 8px;
+}
+
+/* Cartões de Dicas */
+.grade-cartoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cartao {
+    flex: 1 1 280px;
+    background-color: #f9f9f9;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.cartao h3 {
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+/* Lista de Direitos */
+.lista-direitos {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.lista-direitos li {
+    margin-bottom: 15px;
+}
+
+/* Alertas de Golpes */
+.alerta-golpe {
+    background-color: #fff8e6;
+    border-left: 8px solid #d97706;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.alerta-golpe h3 {
+    color: #92400e;
+    margin-bottom: 8px;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px;
+}
